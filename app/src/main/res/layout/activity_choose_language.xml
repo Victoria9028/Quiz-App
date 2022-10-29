@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".ChooseLanguageActivity">
+
+    <TextView
+        android:id="@+id/tv_choose_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Language"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_c_sharp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="C#"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_c_plus_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="C++"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_css"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="CSS"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_html"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="HTML"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Java"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_javascript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="JavaScript"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_kotlin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Kotlin"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_php"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="PHP"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_python"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Python"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+</LinearLayout>
